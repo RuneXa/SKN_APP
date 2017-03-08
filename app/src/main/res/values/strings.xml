@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Survey Kantin Nestle</string>
+    <string name="Pertanyaan"> Puaskah Anda dengan kantin hari ini ? </string>
+
+    <string name="AlasanTidak1">Pelayanan crew </string>
+    <string name="AlasanTidak2">Kebersihan tempat makan (meja) dan alat makan </string>
+    <string name="AlasanTidak3">Porsi makanan yang disajikan </string>
+    <string name="AlasanTidak4">Kombinasi menu yang disajikan </string>
+    <string name="AlasanTidak5">Rasa dari makanan yang disajikan </string>
+
+    <string-array name="Bulan">
+        <item>Semua</item>
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+
+</resources>

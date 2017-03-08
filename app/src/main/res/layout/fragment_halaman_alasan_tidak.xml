@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".HalamanAlasanTidak"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:id="@+id/button_back_halamanPertanyaan"
+        android:text="Batal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="Alasan Anda ?"
+        android:textSize="30sp"
+        android:id="@+id/textView_halamanPertanyaan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:padding="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:scaleType="centerInside"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:src="@drawable/pelayanan_button"
+                android:id="@+id/imgV_pelayanan"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:text="Pelayanan"
+                android:gravity="center"
+                android:textSize="26sp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:padding="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:scaleType="centerInside"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:src="@drawable/kebersihan_button"
+                android:id="@+id/imgV_kebersihan"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:text="Kebersihan"
+                android:gravity="center"
+                android:textSize="26sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:padding="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:scaleType="centerInside"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:src="@drawable/menumakanan_button"
+                android:id="@+id/imgV_menu"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:text="Makanan"
+                android:gravity="center"
+                android:textSize="26sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
